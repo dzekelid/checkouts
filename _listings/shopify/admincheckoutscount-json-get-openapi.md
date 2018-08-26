@@ -1,0 +1,64 @@
+---
+swagger: "2.0"
+x-collection-name: Shopify
+x-complete: 0
+info:
+  title: Shopify Get a count of checkouts
+  description: Get a count of checkouts.
+  version: 1.0.0
+host: DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /admin/checkouts.json:
+    get:
+      summary: List all abandoned checkouts
+      description: List all abandoned checkouts.
+      operationId: getAdminCheckouts.json
+      x-api-path-slug: admincheckouts-json-get
+      parameters:
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Commerce
+      - List
+      - Abandoned
+      - Checkouts
+  /admin/checkouts/count.json:
+    get:
+      summary: Get a count of checkouts
+      description: Get a count of checkouts.
+      operationId: getAdminCheckoutsCount.json
+      x-api-path-slug: admincheckoutscount-json-get
+      parameters:
+      - in: header
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Commerce
+      - Count
+      - Checkouts
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
