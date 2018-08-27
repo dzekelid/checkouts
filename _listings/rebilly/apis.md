@@ -6,11 +6,161 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Checkouts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Retrieve a list of checkout pages
+  x-api-slug: checkoutpages-get
+  description: Retrieve a list of checkout pages
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-get-openapi.md
+- name: Rebilly - Create a Checkout Page
+  x-api-slug: checkoutpages-post
+  description: Create a Checkout Page
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-post-openapi.md
+- name: Rebilly - Delete a Checkout Page
+  x-api-slug: checkoutpagesid-delete
+  description: Delete a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-delete-openapi.md
+- name: Rebilly - Retrieve a Checkout Page
+  x-api-slug: checkoutpagesid-get
+  description: Retrieve a Checkout Page with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-get-openapi.md
+- name: Rebilly - Create or update a Checkout Page with predefined ID
+  x-api-slug: checkoutpagesid-put
+  description: Create or update a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-put-openapi.md
+- name: Rebilly - Retrieve a list of checkout pages
+  x-api-slug: checkoutpages-get
+  description: Retrieve a list of checkout pages
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-get-openapi.md
+- name: Rebilly - Create a Checkout Page
+  x-api-slug: checkoutpages-post
+  description: Create a Checkout Page
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-post-openapi.md
+- name: Rebilly - Delete a Checkout Page
+  x-api-slug: checkoutpagesid-delete
+  description: Delete a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-delete-openapi.md
+- name: Rebilly - Retrieve a Checkout Page
+  x-api-slug: checkoutpagesid-get
+  description: Retrieve a Checkout Page with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-get-openapi.md
+- name: Rebilly - Create or update a Checkout Page with predefined ID
+  x-api-slug: checkoutpagesid-put
+  description: Create or update a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-put-openapi.md
+- name: Rebilly - Create or update a Checkout Page with predefined ID
+  x-api-slug: checkoutpagesid-put
+  description: Create or update a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-put-openapi.md
+- name: Rebilly - Retrieve a Checkout Page
+  x-api-slug: checkoutpagesid-get
+  description: Retrieve a Checkout Page with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-get-openapi.md
+- name: Rebilly - Delete a Checkout Page
+  x-api-slug: checkoutpagesid-delete
+  description: Delete a Checkout Page with predefined identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpagesid-delete-openapi.md
+- name: Rebilly - Create a Checkout Page
+  x-api-slug: checkoutpages-post
+  description: Create a Checkout Page
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-post-openapi.md
+- name: Rebilly - Retrieve a list of checkout pages
+  x-api-slug: checkoutpages-get
+  description: Retrieve a list of checkout pages
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/rebilly/checkoutpages-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

@@ -12,11 +12,60 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versa
 x-kinRank: "9"
 x-alexaRank: "410909"
 tags: Checkouts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
+- name: VersaPay API Reference - Single Payment Hosted Checkout
+  x-api-slug: send-money-get
+  description: |-
+    Clients, customers, or donors, for instance, can send your organization money directly from their bank account or credit card simply by clicking a link which displays a page with your account name allowing your customer to make a payment to you for the specified dollar amount:
+    <br>
+    `https://secure.versapay.com/send_money?api_token={your_api_token}&amount={dollar_amount_for_customer_to_pay}`
+    <br>
+    Funds will go to the fund destination passed in the to_fund parameter. By default, the funds will be deposited into your default bank account once the transaction clears from the other party.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/send-money-get-openapi.md
+- name: VersaPay API Reference - Debit Agreement Hosted Checkout
+  x-api-slug: authorize-get
+  description: |-
+    Clients, customers, or donors, for instance, can initiate a pre-authorized debit agreement by clicking a link on your website or in an email.
+    <br>
+    `https://secure.versapay.com/authorize?api_token={your_api_token}&message={explanation_of_what_this_is_for}`
+    <br>
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/authorize-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/authorize-get-openapi.md
+- name: VersaPay API Reference - Single Payment Hosted Checkout
+  x-api-slug: send-money-get
+  description: |-
+    Clients, customers, or donors, for instance, can send your organization money directly from their bank account or credit card simply by clicking a link which displays a page with your account name allowing your customer to make a payment to you for the specified dollar amount:
+    <br>
+    `https://secure.versapay.com/send_money?api_token={your_api_token}&amount={dollar_amount_for_customer_to_pay}`
+    <br>
+    Funds will go to the fund destination passed in the to_fund parameter. By default, the funds will be deposited into your default bank account once the transaction clears from the other party.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/send-money-get-openapi.md
 - name: VersaPay API Reference - Debit Agreement Hosted Checkout
   x-api-slug: authorize-get
   description: |-
@@ -51,6 +100,22 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/authorize-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/authorize-get-openapi.md
+- name: VersaPay API Reference - Single Payment Hosted Checkout
+  x-api-slug: send-money-get
+  description: |-
+    Clients, customers, or donors, for instance, can send your organization money directly from their bank account or credit card simply by clicking a link which displays a page with your account name allowing your customer to make a payment to you for the specified dollar amount:
+    <br>
+    `https://secure.versapay.com/send_money?api_token={your_api_token}&amount={dollar_amount_for_customer_to_pay}`
+    <br>
+    Funds will go to the fund destination passed in the to_fund parameter. By default, the funds will be deposited into your default bank account once the transaction clears from the other party.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com//
+  tags: Billing, Checking, Payments, Payments, Stack Network, Financial Services,
+    Technology, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/checkouts/master/_listings/versapay/send-money-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://venmo.api.gallery.streamdata.io
